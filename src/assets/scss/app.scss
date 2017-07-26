@@ -117,6 +117,13 @@ $brand-font-family-body: 'Open Sans', sans-serif;
 .attention {
   text-align: center;
   font-weight: $brand-font-weight-header-bold;
+  &.boxed {
+    border: dashed 2px lighten($brand-text-color, 55%);
+    border-radius: 12px;
+    padding: 25px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 }
 
 .logotype {
