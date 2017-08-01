@@ -126,6 +126,16 @@ $brand-font-family-body: 'Open Sans', sans-serif;
   }
 }
 
+ul.attention {
+  list-style-position: inside;
+  span {
+    position: relative;
+    top: -1px;
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+}
+
 .logotype {
   font-family: $brand-font-family-logotype;
   font-weight: $brand-font-weight-logotype;

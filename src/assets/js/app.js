@@ -10,3 +10,17 @@ import Foundation from 'foundation-sites';
 
 
 $(document).foundation();
+
+
+$('.scroll-anchor').on('click', function() {
+  console.log( $('#' + $(this).data('target')) );
+  
+  $('html,body').animate({scrollTop: $('#' + $(this).data('target')).offset().top - 25}, 2000);
+});
+
+// function scrollToAnchor(aid){
+//     var aTag = $("a[name='"+ aid +"']");
+//     $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+// }
+
+// scrollToAnchor('id3');
