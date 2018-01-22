@@ -72,13 +72,15 @@ $brand-font-family-body: 'Open Sans', sans-serif;
   @include breakpoint(small) {
     background-position: center top;
     background-size: auto 100%;
-    padding-top: 30px;
+    padding-top: 110px;
   }
   @include breakpoint(xlarge up) {
     background-position: 0% 20%;
     background-size: 100% auto;
-    padding-top: 50px;
+    padding-top: 110px;
   }
+  padding-left: 25px;
+  padding-right: 25px;
   height: 630px;
 
   background-repeat: no-repeat;
